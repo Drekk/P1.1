@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">P1.1</string>
+    <string name="cuadro">Cuadrado</string>
+    <string name="cuadrado">Cuadrado</string>
+    <string name="circulo">Círculo</string>
+    <string name="triangulo">Triángulo</string>
+    <string name="cubo">Cubo</string>
+    <string name="ladoCua">Lado</string>
+    <string name="radio">Radio</string>
+    <string name="base">Base</string>
+    <string name="altura">Altura</string>
+    <string name="ladoCub">Lado</string>
+    <string name="calcular">Calcular</string>
+    <string name="trianguloe">Triángulo Equilátero</string>
+    <string name="bas">Base o Lado</string>
+    <string name="ladoTri">Base o Lado</string>
+</resources>

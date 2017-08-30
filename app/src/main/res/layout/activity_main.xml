@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.michael.p11.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="2.5"
+            android:orientation="vertical"
+            >
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:text="Parámetros de Figuras Geométricas "
+            android:textSize="20dp"
+            android:textStyle="bold|italic"
+            android:gravity="center_horizontal|center_vertical"
+
+            />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:text="Seleccione la Figura y digite el dato(s) pedido en cm: "
+                android:gravity="center_vertical|center_horizontal"
+                android:layout_weight="1"
+                android:textSize="20dp"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:orientation="horizontal"
+            android:layout_weight="4"
+            >
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                >
+
+                <RadioGroup
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <RadioButton
+                        android:id="@+id/rCuadrado"
+                        android:layout_width="wrap_content"
+                        android:layout_height="0dp"
+                        android:layout_weight="1"
+                        android:checked="true"
+                        android:text="@string/cuadrado"
+                        android:textSize="17.5sp"/>
+
+                    <RadioButton
+                        android:id="@+id/rCirculo"
+                        android:layout_width="wrap_content"
+                        android:layout_height="0dp"
+                        android:layout_weight="1"
+                        android:text="@string/circulo"
+                        android:textSize="17.5sp"/>
+                    <RadioButton
+                        android:id="@+id/rTriangulo"
+                        android:layout_width="wrap_content"
+                        android:layout_height="0dp"
+                        android:layout_weight="1"
+                        android:text="@string/trianguloe"
+                        android:textSize="17.5sp"/>
+                    <RadioButton
+                        android:id="@+id/rCubo"
+                        android:layout_width="wrap_content"
+                        android:layout_height="0dp"
+                        android:layout_weight="1"
+                        android:text="@string/cubo"
+                        android:textSize="17.5sp"/>
+                </RadioGroup>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                >
+                <EditText
+                    android:id="@+id/eLcuadrado"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:hint="@string/ladoCua"
+                    android:inputType="numberDecimal"
+                    android:gravity="center_horizontal|center_vertical"
+                    android:textSize="18sp"
+
+
+                    />
+                <EditText
+                    android:id="@+id/eRadio"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:hint="@string/radio"
+                    android:inputType="numberDecimal"
+                    android:gravity="center_horizontal|center_vertical"
+                    android:textSize="18sp"
+                    />
+
+                <EditText
+                    android:id="@+id/eBase"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:inputType="numberDecimal"
+                    android:hint="@string/ladoTri"
+                    android:gravity="center_horizontal|center_vertical"
+                    android:textSize="18sp"
+                    />
+
+
+                <EditText
+                    android:id="@+id/eLcubo"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:hint="@string/ladoCub"
+                    android:inputType="numberDecimal"
+                    android:gravity="center_horizontal|center_vertical"
+                    android:textSize="18sp"
+                    />
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="4"
+            android:orientation="vertical"
+            >
+
+            <Button
+                android:id="@+id/bCalcular"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:text="@string/calcular"
+                android:onClick="Calcular"
+                android:textAllCaps="false"
+                android:textSize="20sp"
+
+                />
+
+            <TextView
+                android:id="@+id/tInfo"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="2.5"
+                android:layout_marginTop="15dp"
+
+                android:textSize="20dp"
+                />
+
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>
