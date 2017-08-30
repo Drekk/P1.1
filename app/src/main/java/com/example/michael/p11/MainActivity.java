@@ -119,7 +119,7 @@ public class MainActivity extends AppCompatActivity {
 
         else {
          if (rCuadrado.isChecked()){
-             eLcuadrado.setError("Porfavor ingrese un dato para calcular");
+             eLcuadrado.setError("Porfavor ingrese un dato para calcular!");
              eLcuadrado.requestFocus();
              tInfo.setText("");
              eLcubo.setText("");
@@ -128,7 +128,7 @@ public class MainActivity extends AppCompatActivity {
 
          }
          else   if (rCirculo.isChecked()){
-             eRadio.setError("Porfavor ingrese un dato para calcular");
+             eRadio.setError("Porfavor ingrese un dato para calcular!");
              eRadio.requestFocus();
              tInfo.setText("");
              eLcubo.setText("");
@@ -137,7 +137,7 @@ public class MainActivity extends AppCompatActivity {
 
          }
          else   if (rTriangulo.isChecked()){
-             eBase.setError("Porfavor ingrese un dato para calcular");
+             eBase.setError("Porfavor ingrese un dato para calcular!");
              eBase.requestFocus();
              tInfo.setText("");
              eLcubo.setText("");
@@ -146,7 +146,7 @@ public class MainActivity extends AppCompatActivity {
 
          }
          else   if (rCubo.isChecked()){
-             eLcubo.setError("Porfavor ingrese un dato para calcular");
+             eLcubo.setError("Porfavor ingrese un dato para calcular!");
              eLcubo.requestFocus();
              tInfo.setText("");
              eLcuadrado.setText("");
